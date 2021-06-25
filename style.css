@@ -1,0 +1,12 @@
+
+
+
+
+
+
+
+.hero-img {
+  min-height: 100vh;
+  background-image: url(https://s3-alpha-sig.figma.com/img/85b9/17e5/dc5e6ba88129c523fd3916dc9066b282?Expires=1625443200&Signature=YVXhMBNrSLgDVaDdqcjm5O8ghZc-LcULDQ0tOiBSlKoi3lCCgdQ~NArUVScGhFWP337SM9OgMGYRe6OOsDIpp8KNqdW907Jzh3N1GY4v7-QPcojPd-eJO-exofR39WjhGtvYWLElFxjRPG8p6PMQ~wGZem6IPqeoNm6oVTwsht-Y3VzK65T1PDquGt29-H~7Xe0XO0ogR1uiBv9d4Qnq6QxHu7FkEMt-CxVGaErd~szT9m1k66hVRFr-w24bRjkpTi5TI-AoUy9g5cGb19vcvhtIKQgVA5pafNBV~BVW7fZDaJWvNREdsO2tYN5x-~-hLQKIJQb-PHlIOSXSgP0d1w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-size: cover;
+}
