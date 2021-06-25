@@ -15,10 +15,6 @@ main {
   background-size: cover;
 }
 
-.product {
-  max-height: 100px;
-}
-
 .object-fit-contain {
   object-fit: cover;
 }
