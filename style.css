@@ -31,7 +31,7 @@ font-size: 24pt;
 }
 
 .spill {
-  bottom: -40px
+  bottom: -60px
 }
 
 .form input[type="text"] {
@@ -83,5 +83,4 @@ box-shadow: blueviolet;}
   justify-content: space-around;
   padding: 10px;
 }
-
 
