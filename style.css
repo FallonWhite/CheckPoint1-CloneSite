@@ -37,6 +37,13 @@ main {
   justify-content: space-around;
 }
 
+#pad > h3 {
+  text-align: center;
+}
+
+.dog-image {
+  background-image: url(https://s3-alpha-sig.figma.com/img/51cf/14e1/ef925d6cf6639481216ea5541bb8703e?Expires=1625443200&Signature=ddDZ-9ZbLwU9OLHne11u2wgomuKfeHqmDs6DARC9wEgY~oQOz8Pz0fs8PXIKA0Nahz2~ETkV1lK3gNJ4B45fnwgSvo7rw6fPK8hpWuMyEeLQtoKMxLX-x0DCHRI7f1CBf~q3z7QVteuQyi4cnDaCehw3I8xpz3rD1bdX8EWV1FVTCIUQkqyNvGj49rsROxiOze9MVwE9WkGNrzFQZy8zrCi0B1rhzcxnFAO9qT9~qcKC1-a9Er6wK6vtZaUJe82eW5jwzFpAcCFkusAA6IPAevXE0iuiY2UwvQa0Z31bO90k7s0PfO4OIdgEZmr4OYlMWK32GM5gmuaYD21rg2dQNQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
 
 
 
