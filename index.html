@@ -13,30 +13,7 @@
   <title>Document</title>
 </head>
 <style>
-  body.debug .container,
-  body.debug .container-fluid {
-    outline: 2px double blue;
-    outline-offset: -2px;
-  }
 
-  body.debug .row {
-    outline: 2px dashed red;
-    outline-offset: -2px;
-  }
-
-  body.debug [class*="col-"] {
-    outline: 2px dotted forestgreen;
-    outline-offset: -3px;
-  }
-</style>
-<style>
-  .vertical {
-    border-left: 10px solid aliceblue;
-    height: 90px;
-    margin-top: 50px;
-    left: 20%;
-    padding-top: 50px;
-  }
 </style>
 
 <body class="debug">
@@ -64,7 +41,7 @@
       <div class="col-md-4 d-flex flex-start pl-5">
         <div class="bg-light shadow p-3 d-none d-md-block">
 
-          <form id="pad">
+          <form id="pad" class="col-md-12 d-flex d-md-block">
             <h3>
               Sign up to receive our monthly newsletter OR Contact us now
             </h3>
@@ -98,40 +75,59 @@
         </div>
 
       </div>
-      <div class="col-md-4 d-flex flex-start pl-5 hidden-image">
-        <div class="vertical"></div>
-        <h1 style="color: aqua; text-shadow: 2px 2px black; padding-left: 100px; padding-top: 50px;">
-          Do you love dogs?
-        </h1><br>
-        <p style="color: aqua; padding-left: 100px; padding-top: 10px;"><b>If so, it looks like you found the right
-            place!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Suscipit accusamus, exercitationem at facere iste a ducimus ut tempora ipsa praesentium tempore. Saepe
-            iste
-            ut
-            quod magnam ipsam inventore, eveniet consectetur.</b></p>
 
+      <div class="col-md-1"></div>
+
+      <div class="col-md-7">
+
+        <div class="pl-5" style="border-left: 10px solid aqua; height: 100px;">
+          <h1 style="color: aqua; text-shadow: 2px 2px black;">
+            Do you love dogs?
+          </h1><br>
+          <p style="color: magenta; text-shadow: 1px 1px black; font-size: large;"><b>If so, it looks like you
+              found the
+              right
+              place!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Suscipit accusamus, exercitationem at facere iste a ducimus ut tempora ipsa praesentium tempore. Saepe
+              iste
+              ut
+              quod magnam ipsam inventore, eveniet consectetur.</b></p>
+        </div>
       </div>
     </div>
     <div class="row bg-primary text-light">
-      <div class="col-4 text-left pl-5 p-5">
-        <h3 style="color: aqua; text-shadow: 2px 2px magenta; padding-top: 25px;">Doggos are the best!</h3>
+      <div class="col-4 text-left pl-5 pt-5">
+        <h3 style="color: aqua; text-shadow: 2px 2px magenta;">Doggos are the best!</h3>
         <h4>Canine loyalty is unmatched</h4>
         <p>The bond between human and dog is an interesting an unique one to say the least. For example, human blood
           pressure goes down when petting a dog, and so does the dog’s. Often if a human is ill or injured, the dog will
           step in to help to "heal" their human. The undeniable bond spans throughout history</p>
       </div>
-      <div class="card col-8 spill d-flex flexposition-absolute p-5">
-        <div class="card-body">
-          <i class="mdi mdi-24px mdi-bone"></i>
-          is some text within a card body.
+
+      <div class="spacer col-md-2"></div>
+
+      <div class="card col-5 spill d-flex">
+        <div class="card-body col-md-12">
+          <p class="mdi mdi-24px mdi-bone" style="color: black;">Lorem ipsum dolor sit, amet
+            consectetur adipisicing
+            elit. Qui deserunt mollitia reprehenderit natus facere assumend</p>
+          <p class="mdi mdi-24px mdi-bone" style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Qui deserunt mollitia reprehenderit natus facere assumend</p>
+          <p class="mdi mdi-24px mdi-bone" style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Qui deserunt mollitia reprehenderit natus facere assumend</p>
+          <p class="mdi mdi-24px mdi-bone" style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Qui deserunt mollitia reprehenderit natus facere assumend</p>
+          <p class="mdi mdi-24px mdi-bone" style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Qui deserunt mollitia reprehenderit natus facere assumend</p>
+
         </div>
       </div>
     </div>
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-4 pl-5 pt-5 p-3">
+        <div class="col-4 pl-5 p-5">
           <a href="https://placedog.net" class="dog1"><img src="https://placedog.net/450/600"></a>
 
         </div>
