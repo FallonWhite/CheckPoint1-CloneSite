@@ -20,9 +20,9 @@ main {
 
 }
 
-.p > text-info {
-padding-top: 10px;
-border-left: 10px, vertical, blueviolet;
+.text-info {
+padding-top: 60px;
+border-left: 50px, vertical, blueviolet;
 font-size: 24pt;
 }
 
@@ -31,7 +31,7 @@ font-size: 24pt;
 }
 
 .spill {
-  bottom: -30px
+  bottom: -40px
 }
 
 .form input[type="text"] {
@@ -49,6 +49,10 @@ font-size: 24pt;
   
 }
 
+#submit {
+
+color: black;
+box-shadow: blueviolet;}
 
 #exampleFormControlInput4 {
   width: 40%; 
@@ -57,6 +61,14 @@ font-size: 24pt;
 #pad {
   justify-content: space-around;
   padding: 10px;
+  flex: none;
+}
+
+.vertical {
+  border-left: 6px solid black;
+  height: 200px;
+  position:absolute;
+  left: 50%;
 }
 
 #pad > h3 {
@@ -67,6 +79,9 @@ font-size: 24pt;
   background-image: url(https://s3-alpha-sig.figma.com/img/51cf/14e1/ef925d6cf6639481216ea5541bb8703e?Expires=1625443200&Signature=ddDZ-9ZbLwU9OLHne11u2wgomuKfeHqmDs6DARC9wEgY~oQOz8Pz0fs8PXIKA0Nahz2~ETkV1lK3gNJ4B45fnwgSvo7rw6fPK8hpWuMyEeLQtoKMxLX-x0DCHRI7f1CBf~q3z7QVteuQyi4cnDaCehw3I8xpz3rD1bdX8EWV1FVTCIUQkqyNvGj49rsROxiOze9MVwE9WkGNrzFQZy8zrCi0B1rhzcxnFAO9qT9~qcKC1-a9Er6wK6vtZaUJe82eW5jwzFpAcCFkusAA6IPAevXE0iuiY2UwvQa0Z31bO90k7s0PfO4OIdgEZmr4OYlMWK32GM5gmuaYD21rg2dQNQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
 }
 
-
+.dog1 {
+  justify-content: space-around;
+  padding: 10px;
+}
 
 
