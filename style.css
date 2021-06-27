@@ -29,10 +29,13 @@ main {
 }
 
 #exampleFormControlTextarea1 {
-  background-image: url(https://s3-alpha-sig.figma.com/img/85b9/17e5/dc5e6ba88129c523fd3916dc9066b282?Expires=1625443200&Signature=YVXhMBNrSLgDVaDdqcjm5O8ghZc-LcULDQ0tOiBSlKoi3lCCgdQ~NArUVScGhFWP337SM9OgMGYRe6OOsDIpp8KNqdW907Jzh3N1GY4v7-QPcojPd-eJO-exofR39WjhGtvYWLElFxjRPG8p6PMQ~wGZem6IPqeoNm6oVTwsht-Y3VzK65T1PDquGt29-H~7Xe0XO0ogR1uiBv9d4Qnq6QxHu7FkEMt-CxVGaErd~szT9m1k66hVRFr-w24bRjkpTi5TI-AoUy9g5cGb19vcvhtIKQgVA5pafNBV~BVW7fZDaJWvNREdsO2tYN5x-~-hLQKIJQb-PHlIOSXSgP0d1w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-  
+  background-image: url(https://s3-alpha-sig.figma.com/img/e6a8/1160/8c31dee695fdead1ca92fc54ae605aa0?Expires=1625443200&Signature=SBMX7dT6~QwCD6WoEgtNhchyV3J7r7~~6Q3vSwv8a3-NvgQ8fhCTFeRNL1zv0bsoBX87mxLtjc7wOmaKEXM-ysHcZ5M8yB01a1YdW9e5awTZET4d0dI8fDGh7BuKcEmI-57B3gUgejPpWM3NBlY1VnlMzzJhWf4LTwSyhkQC55FpXIirI3z7rA7GOzHNg1pAylpwsp7MhhhV29eoejs1tuMP2UDbx-iunpOoBE~b4JeNXSrko2T5OnV2YOi48m7MHxi97hu-Pv2gu0dIMdX8Kto~cEDAI7KbhuOvMYOqI4k7-0WTBNo5fekIVLud20gafg4i1tvFXKohI5v5mDostw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+ color: aliceblue; 
 }
 
+#pad {
+  justify-content: space-around;
+}
 
 
 
