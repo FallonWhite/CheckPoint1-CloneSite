@@ -1,5 +1,4 @@
-body.debug .container,
-body.debug .container-fluid {
+body.debug .container, body.debug .container-fluid {
   outline: 2px double blue;
   outline-offset: -2px;
 }
@@ -16,6 +15,8 @@ body.debug [class*="col-"] {
 
 body {
   min-height: 100vh;
+  max-width: 1900px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
@@ -30,15 +31,28 @@ main {
   background-size: cover;
 }
 
+.placeholder-img {
+  min-height: 600px;
+  background-image: url(img/placeholder.png);
+  background-size: cover;
+}
+
+.vertical {
+  border-left: 10px solid aliceblue;
+  height: 90px;
+  margin-top: 50px;
+  left: 20%;
+  padding-top: 50px;
+}
+
 .hidden-image {
   border-left: aliceblue, 10px;
-
 }
 
 .text-info {
-padding-top: 60px;
-border-left: 50px, vertical, blueviolet;
-font-size: 24pt;
+  padding-top: 60px;
+  border-left: 50px, vertical, blueviolet;
+  font-size: 24pt;
 }
 
 .object-fit-contain {
@@ -46,7 +60,19 @@ font-size: 24pt;
 }
 
 .spill {
-  bottom: -60px
+  bottom: -40px
+}
+
+@media only screen and (max-width: 991.98px) {
+  .spill {
+    bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 991.98px) {
+  #placeholder-img-text {
+    top: 50px;
+  }
 }
 
 .form input[type="text"] {
@@ -54,30 +80,27 @@ font-size: 24pt;
   padding-left: 10px;
 }
 
-#exampleFormControlTextarea1 {
+#exampleFormControlTextArea1 {
   background-image: url(https://s3-alpha-sig.figma.com/img/e6a8/1160/8c31dee695fdead1ca92fc54ae605aa0?Expires=1625443200&Signature=SBMX7dT6~QwCD6WoEgtNhchyV3J7r7~~6Q3vSwv8a3-NvgQ8fhCTFeRNL1zv0bsoBX87mxLtjc7wOmaKEXM-ysHcZ5M8yB01a1YdW9e5awTZET4d0dI8fDGh7BuKcEmI-57B3gUgejPpWM3NBlY1VnlMzzJhWf4LTwSyhkQC55FpXIirI3z7rA7GOzHNg1pAylpwsp7MhhhV29eoejs1tuMP2UDbx-iunpOoBE~b4JeNXSrko2T5OnV2YOi48m7MHxi97hu-Pv2gu0dIMdX8Kto~cEDAI7KbhuOvMYOqI4k7-0WTBNo5fekIVLud20gafg4i1tvFXKohI5v5mDostw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
- color: aliceblue; 
+  color: aliceblue;
 }
 
 #checkbox {
   padding: 10px;
-  
 }
 
 #submit {
-
-color: black;
-box-shadow: blueviolet;
+  color: black;
+  box-shadow: blueviolet;
 }
 
 #pad {
   justify-content: space-around;
   padding: 10px;
   flex: none;
-  
 }
 
-#pad > h3 {
+#pad>h3 {
   text-align: center;
 }
 
