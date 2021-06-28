@@ -13,12 +13,12 @@
   <title>Land O'Doggo!</title>
 </head>
 
-<body class="debug">
+<body>
 
   <header class="container-fluid sticky-top">
 
     <div class="row">
-      <nav class="navbar dog-image sticky-top navbar-dark bg-dark">
+      <nav class="navbar dog-image sticky-top navbar-dark bg-dark" style="max-height: 90px;">
         <a class="navbar-brand" href="#">
           <p class="mdi mdi-36px mdi-dog" style="font-size: 36px;"> Land O'Doggo</p>
         </a>
@@ -29,79 +29,77 @@
 
   <main class="container-fluid">
 
-    <div class="row hero-img">
+    <div class="row hero-img justify-content-center">
 
-      <div class="col-md-12 col-sm-12 pt-3 pl-5">
+      <div class="col-12 col-xl-11 col-lg-12 col-md-11 pt-1 pt-xl-5 pt-lg-5 pl-2 pl-xl-5 pl-lg-5">
         <h2 style="color: black; text-shadow: 2px 2px aqua;">Doggos</h2>
       </div>
 
-      <div class="col-md-4 d-flex flex-start pl-5">
+      <div class="d-flex col-xl-4 col-lg-5 col-md-11 px-1 px-lg-5 px-md-1 pb-lg-5 pb-md-2 pb-1">
 
-        <div class="bg-light shadow p-3 d-none d-md-block">
+        <div class="bg-light shadow p-3 col-md-12">
 
-          <div class="col-md-12 d-flex d-md-block">
-            <form id="pad">
+          <form id="pad">
 
-              <h3>Sign up to receive our monthly newsletter OR Contact us now</h3>
-              <div class="row">
-                <div class="col-md-12">
-                  <label for="exampleFormControlInput1" class="form-label"></label>
-                  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
-                </div>
+            <h3>Sign up to receive our monthly newsletter OR Contact us now</h3>
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <label for="exampleFormControlInput2" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="email">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                <label for="exampleFormControlInput3" class="form-label"></label>
+                <input type="tel" class="form-control" id="exampleFormControlInput3" placeholder="phone">
               </div>
 
-              <div class="row">
-                <div class="col-md-12">
-                  <label for="exampleFormControlInput2" class="form-label"></label>
-                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="email">
-                </div>
+              <div class="col-6">
+                <label for="exampleFormControlInput4" class="form-label"></label>
+                <input type="tel" class="form-control" id="exampleFormControlInput4" placeholder="ext.">
               </div>
+            </div>
 
-              <div class="row">
-                <div class="col-md-6">
-                  <label for="exampleFormControlInput3" class="form-label"></label>
-                  <input type="tel" class="form-control" id="exampleFormControlInput3" placeholder="phone">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="exampleFormControlInput4" class="form-label"></label>
-                  <input type="tel" class="form-control" id="exampleFormControlInput4" placeholder="ext.">
-                </div>
+            <div class="row">
+              <div class="col-md-12">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextArea1" placeholder="message"
+                  rows="7"></textarea>
               </div>
+            </div>
 
-              <div class="row">
-                <div class="col-md-12">
-                  <label for="exampleFormControlTextarea1" class="form-label"></label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="message"
-                    rows="7"></textarea>
-                </div>
+            <div class="row">
+              <div class="col-md-12 pt-3">
+                <input type="checkbox" id="checkbox">By checking this box I agree to receive email<br>
+                <input type="submit" value="Submit"
+                  style="background-color: aqua; box-shadow: black; margin-top: 10px; border-color: black;">
               </div>
+            </div>
 
-              <div class="row">
-                <div class="col-md-12 pt-3">
-                  <input type="checkbox" id="checkbox">By checking this box I agree to receive email<br>
-                  <input type="submit" value="Submit"
-                    style="background-color: aqua; box-shadow: black; margin-top: 10px; border-color: black;">
-                </div>
-              </div>
-
-            </form>
-          </div>
+          </form>
 
         </div>
 
       </div>
 
-      <div class="col-md-1"></div>
+      <div class="col-1 d-md-none d-lg-block"></div>
 
 
-      <div class="col-md-7">
+      <div class="col-lg-6 pl-5 d-none d-lg-block">
 
-        <div class="pl-5" style="border-left: 10px solid aqua;">
+        <div style="border-left: 5px green solid; max-width: 700px;">
 
-          <h1 style="color: aqua; text-shadow: 2px 2px black;"> Do you love dogs?</h1>
+          <h1 style="color: aqua; text-shadow: 2px 2px black; padding-left: 40px;"> Do you love dogs?</h1>
           <br />
-          <p style="color: aqua">
+          <p style="color: aqua; padding-left: 40px;">
             <b>If so, it looks like you found the right place! Lorem ipsum dolor sit amet consectetur adipisicing
               elit. Suscipit accusamus, exercitationem at facere iste a ducimus ut tempora ipsa praesentium tempore.
               Saepe iste ut quod magnam ipsam inventore, eveniet consectetur.</b>
@@ -113,127 +111,123 @@
 
     </div>
 
-    <div class="row bg-info text-dark">
+    <div class="d-flex row bg-info text-dark justify-content-center py-3 py-xl-0 py-lg-0">
 
-      <div class="col-md-4 text-left pl-5">
+      <div class="text-left order-2 order-md-1 col-md-4 px-lg-5 px-md-3 py-xl-3 py-l-3 py-m-2 pt-2">
         <h2 class="pt-3" style="color: black; text-shadow: 1px 1px blueviolet;">Doggos are the best!</h2>
         <h3 style="color: black; text-shadow:1px 1px blueviolet;">Canine loyalty is unmatched</h3>
         <p style="color: black;">The bond between human and dog is an interesting an unique one to say the least. For
-          example, human blood
-          pressure goes down when petting a dog, and so does the dog’s. Often if a human is ill or injured, the dog
-          will
-          step in to help to "heal" their human. The undeniable bond spans throughout history</p>
+          example, human blood pressure goes down when petting a dog, and so does the dog’s. Often if a human is ill or
+          injured, the dog
+          will step in to help to "heal" their human. The undeniable bond spans throughout history</p>
       </div>
 
-      <div class="spacer col-md-2"></div>
+      <div class="col-0 col-xl-1 col-lg-1 col-md-1 order-1 d-none d-sm-block"></div>
 
-      <div class="card col-5 spill">
-        <div class="card-body col-md-12">
+      <div class="card col-11 col-xl-5 col-lg-5 col-md-5 order-sm-1 spill">
+        <div class="card-body">
 
-          <div class="row">
+          <div class="row mb-3">
             <div class="d-flex align-items-center">
-              <span style="color: black;" class="mdi mdi-24px mdi-bone col-md-1"></span>
-              <span style="color: black;" class="col-md-11">DOGS</span>
+              <span style="color: black;" class="pl-3 mdi mdi-24px mdi-bone"></span>
+              <span style="color: black;" class="pl-3">DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS
+                DOGS</span>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="d-flex align-items-center">
+              <span style="color: black;" class="pl-3 mdi mdi-24px mdi-paw"></span>
+              <span style="color: black;" class="pl-3">DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS
+                DOGS</span>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="d-flex align-items-center">
+              <span style="color: black;" class="pl-3 mdi mdi-24px mdi-bone"></span>
+              <span style="color: black;" class="pl-3">DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS
+                DOGS</span>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="d-flex align-items-center">
+              <span style="color: black;" class="pl-3 mdi mdi-24px mdi-paw"></span>
+              <span style="color: black;" class="pl-3">DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS
+                DOGS</span>
             </div>
           </div>
           <div class="row">
             <div class="d-flex align-items-center">
-              <span style="color: black;" class="mdi mdi-24px mdi-paw col-md-1"></span>
-              <span style="color: black;" class="col-md-11">DOGS</span>
+              <span style="color: black;" class="pl-3 mdi mdi-24px mdi-bone"></span>
+              <span style="color: black;" class="pl-3">DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS DOGS
+                DOGS</span>
             </div>
           </div>
-          <div class="row">
-            <div class="d-flex align-items-center">
-              <span style="color: black;" class="mdi mdi-24px mdi-bone col-md-1"></span>
-              <span style="color: black;" class="col-md-11">DOGS</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="d-flex align-items-center">
-              <span style="color: black;" class="mdi mdi-24px mdi-paw col-md-1"></span>
-              <span style="color: black;" class="col-md-11">DOGS</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="d-flex align-items-center">
-              <span style="color: black;" class="mdi mdi-24px mdi-bone col-md-1"></span>
-              <span style="color: black;" class="col-md-11">DOGS</span>
-            </div>
-          </div>
+
 
         </div>
 
       </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="container-fluid">
 
-      <div class="col-4 pl-5 p-5">
-        <a href="https://placedog.net"><img src="https://placedog.net/450/600" alt=""></a>
-      </div>
+      <div class="row d-flex justify-content-center">
 
-      <div class="col-md-7 pl-5">
-
-        <div class="d-flex">
-
-          <a href="https://icons8.com/icon/75tQDymwRs4-/dog-paw-print" class="col-md-1"><img
-              src="https://img.icons8.com/wired/64/000000/dog-paw-print.png"></a>
-          <h2
-            style="font-size: large; font-weight: bold; color: midnightblue; text-shadow: aqua; padding: 2px; line-height: 30px;"
-            class="col-md-7 pl-3">
-            Lorem ipsum dolor sit amet consectetur!</h2>
+        <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 py-5 order-1">
+          <a href="https://placedog.net"><img src="https://placedog.net/450/600" style="width: 100%; height: auto;"
+              alt=""></a>
         </div>
 
-        <div class="row">
-          <div class="d-flex">
-            <p style="color: black; font-size: large; font-weight: bold;">Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Placeat, veniam animi maiores
-              temporibus possimus minus recusandae commodi sequi ea error sed omnis! Deserunt iste quis ex qui
-              voluptatem perferendis et?</p>
-          </div>
-
-          <div class="d-flex">
-            <p style="color: black; font-size: medium;">Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Placeat, veniam animi maiores
-              temporibus possimus minus recusandae commodi sequi ea error sed omnis! Deserunt iste quis ex qui
-              voluptatem perferendis et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, saepe
-              voluptatem facilis a harum ut iure velit, dolores nulla illum, cum qui voluptates. Quos qui saepe iure,
-              voluptatum nihil delectus?</p>
-          </div>
-
-        </div>
-
-        <div class="row">
-          <div class="d-flex justify-content-end">
-            <button type="button" class="btn btn-info">more</button>
+        <div
+          class="col-11 col-xl-7 col-lg-7 col-md-7 py-2 py-xl-5 py-lg-5 py-md-5 px-0 px-xl-5 px-lg-5 px-md-5 order-1 order-xl-3 order-lg-3 order-md-2"
+          id="placeholder-img-text">
+          <div>
+            <a href="https://icons8.com/icon/75tQDymwRs4-/dog-paw-print"><img
+                src="https://img.icons8.com/wired/64/000000/dog-paw-print.png"
+                style="float: left; padding-right: 15px;"></a>
+            <h3 style="font-weight: bold; color: midnightblue; text-shadow: aqua; display: inline;">
+              Lorem ipsum dolor sit amet consectetur!
+              <br />
+              Unde aperiam in ab nihil reprehenderit suscipit distinctio
+            </h3>
+            <br />
+            <br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus, exercitationem at facere
+              iste a ducimus ut tempora ipsa praesentium tempore. Saepe iste ut quod magnam ipsam inventore, eveniet
+              consectetur.</p>
+            <br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus, exercitationem at facere
+              iste a ducimus ut tempora ipsa praesentium tempore. Saepe iste ut quod magnam ipsam inventore, eveniet
+              consectetur.</p>
+            <button type="button" class="btn btn-info" style="float: right;">more</button>
           </div>
         </div>
 
       </div>
+
 
     </div>
 
-
-    <div class="row p-5">
-      <div class="col-sm-4">
+    <div class="row d-flex py-5 align-items-center justify-content-center" style="background-color: #F7F7F7;">
+      <div class="col-10 col-lg-3 col-md-7 px-0 pb-3 pb-xl-0 pb-lg-0 order-2 order-xl-1 order-lg-1">
         <div class="card bg-info">
           <div class="card-body">
-            <h5 class="card-title" style="text-shadow: 1px 1px black; text-align: center;">Doggo</h5>
-            <p class="card-text text-dark" style="text-shadow: 1px 1px black; text-align: center;">Lorem, ipsum dolor
-              sit amet
-              consectetur
-              adipisicing elit. Deleniti
-              eius ab aperiam at
-              iste quas nobis. Corrupti, nesciunt porro. Aut vitae vero nostrum dignissimos sed non quis nisi commodi
-              cumque.</p>
+            <p class="card-text text-dark" style="text-shadow: 1px 1px black; text-align: center;">Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Impedit quos laboriosam
+              commodi cum distinctio. Unde aperiam in ab nihil reprehenderit suscipit distinctio ut deserunt laborum
+              illo ea fugit, iure similique?</p>
 
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-10 col-lg-3 col-md-7 px-0 pb-3 pb-xl-0 pb-lg-0 order-1 order-xl-2 order-lg-2">
         <div class="card bg-success">
-          <div class="card-body order-2 order-md-1">
-            <h5 class="card-title" style="text-shadow: 1px 1px black; text-align: center;">Doggo</h5>
+          <div class="card-body">
+            <div class="d-flex justify-content-around mx-auto" style="max-width: 50%;">
+              <span class="mdi mdi-star-circle mdi-36px"></span>
+              <span class="mdi mdi-star-circle mdi-36px"></span>
+              <span class="mdi mdi-star-circle mdi-36px"></span>
+            </div>
             <p class="card-text text-dark" style="text-shadow: 1px 1px black; text-align: center;">Lorem, ipsum dolor
               sit amet consectetur adipisicing elit. Quod beatae, provident iste
               cupiditate, sed quis odio assumenda placeat neque eveniet repudiandae delectus repellat harum, suscipit
@@ -243,10 +237,9 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-10 col-lg-3 col-md-7 px-0 order-3">
         <div class="card bg-info">
           <div class="card-body">
-            <h5 class="card-title" style="text-shadow: 1px 1px black; text-align: center;">Doggo</h5>
             <p class="card-text text-dark" style="text-shadow: 1px 1px black; text-align: center;">Lorem ipsum dolor sit
               amet consectetur adipisicing elit. Impedit quos laboriosam
               commodi cum distinctio. Unde aperiam in ab nihil reprehenderit suscipit distinctio ut deserunt laborum
