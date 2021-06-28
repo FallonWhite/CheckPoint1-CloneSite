@@ -89,3 +89,8 @@ box-shadow: blueviolet;
   padding: 10px;
 }
 
+.card {
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
